@@ -1,0 +1,6 @@
+[
+  { "name": "remove.bg Pro", "slug": "removebg", "url": "https://www.remove.bg/?ref=clearcut", "description": "Professional AI background removal with HD output. Trusted by millions.", "rating": 4.9, "price": "From $0.20/image" },
+  { "name": "Canva Pro", "slug": "canva", "url": "https://www.canva.com/?ref=clearcut", "description": "Complete design platform with one-click background removal, templates, and more.", "rating": 4.8, "price": "From $12.99/mo" },
+  { "name": "Adobe Express", "slug": "adobe", "url": "https://www.adobe.com/express/?ref=clearcut", "description": "Professional creative tools with AI-powered background removal.", "rating": 4.7, "price": "From $9.99/mo" },
+  { "name": "PhotoRoom", "slug": "photoroom", "url": "https://www.photoroom.com/?ref=clearcut", "description": "AI photo editor designed for e-commerce product images.", "rating": 4.6, "price": "Free (limited), Pro from $9.99/mo" }
+]
