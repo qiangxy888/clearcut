@@ -7,6 +7,8 @@ export const metadata: Metadata = {
 };
 
 const posts = [
+  { slug: 'how-to-remove-background-from-image-free', title: 'How to Remove Background from Image: 7 Free Methods (2026)', description: 'Learn 7 free ways to remove background from any image in 2026. Compare AI tools, Photoshop, and browser-based options.', date: '2026-03-29', readTime: '12 min' },
+  { slug: 'transparent-background-png-guide', title: 'How to Make a Transparent Background PNG: Complete Guide', description: 'Learn how to create transparent background PNG images for logos, product photos, and web graphics.', date: '2026-03-29', readTime: '8 min' },
   { slug: 'best-background-remover-tools-2026', title: 'Best Background Remover Tools in 2026: Free vs Paid', description: 'We compared the top background removal tools. See which ones deliver the best results.', date: '2026-03-28', readTime: '10 min' },
   { slug: 'how-to-remove-background-from-image', title: 'How to Remove Background from Image: 5 Free Methods', description: 'Step-by-step guide to removing backgrounds using free tools, Photoshop, and AI.', date: '2026-03-24', readTime: '8 min' },
   { slug: 'ecommerce-product-photo-background', title: 'E-commerce Product Photography: Background Removal Tips', description: 'How to create clean product photos for your online store with professional backgrounds.', date: '2026-03-20', readTime: '7 min' },
