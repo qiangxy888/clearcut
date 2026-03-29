@@ -236,6 +236,228 @@ rembg p input_folder/ output_folder/  # Batch processing</code></pre>
 <p>Making a transparent background PNG is quick and free with modern AI tools. For most use cases, <a href="/background-remover">ClearCut's browser-based remover</a> gets the job done in seconds with zero privacy concerns. For professional-grade results on complex images, combine AI removal with manual Photoshop refinement.</p>
 <p>Start with the free tools — you can always upgrade to paid options when the quality demands justify the cost.</p>`,
   },
+  'remove-background-from-product-photos': {
+    title: 'How to Remove Background from Product Photos (Free Methods)',
+    description: 'Clean product photo backgrounds for Amazon, Shopify, and eBay listings using free AI tools.',
+    date: '2026-03-22', readTime: '8 min',
+    keywords: ['product photo background removal', 'remove background product image', 'white background product photo', 'Amazon product photo'],
+    content: `<p><strong>Amazon requires white backgrounds. Shopify stores need clean product shots. eBay listings convert better with professional images.</strong> But hiring a photographer for every SKU isn't realistic. Here's how to do it yourself for free.</p>
+
+<h2>Why Product Photo Backgrounds Matter</h2>
+<ul>
+<li><strong>Amazon:</strong> Main image MUST have pure white background (RGB 255,255,255)</li>
+<li><strong>Shopify:</strong> Consistent backgrounds increase conversion by 30%</li>
+<li><strong>eBay:</strong> White/clean backgrounds improve click-through rates</li>
+<li><strong>Social ads:</strong> Transparent PNGs let you place products on any backdrop</li>
+</ul>
+
+<h2>Method 1: AI Background Removal (Fastest)</h2>
+<p>AI tools like <a href="/background-remover">ClearCut</a> and remove.bg automatically detect the product and remove the background in seconds. No Photoshop skills needed.</p>
+<ol>
+<li>Upload your product photo</li>
+<li>AI processes it (2-5 seconds)</li>
+<li>Download the transparent PNG</li>
+<li>Place on white background for marketplace listings</li>
+</ol>
+<p><strong>Best for:</strong> Quick batch processing, simple products, marketplace listings.</p>
+
+<h2>Method 2: Photoshop (Most Precise)</h2>
+<p>For complex products (glass, hair, jewelry, transparent items), AI tools struggle. Photoshop's Select & Mask with manual refinement gives the best results.</p>
+<p><strong>Best for:</strong> High-value products, complex edges, hero images.</p>
+
+<h2>Method 3: Phone Apps</h2>
+<p>PhotoRoom and Magic Eraser work directly on your phone. Great for small sellers who photograph products on their phone.</p>
+
+<h2>Tips for Better Results</h2>
+<ol>
+<li><strong>Photograph on a contrasting background</strong> — White product? Use a gray or blue backdrop</li>
+<li><strong>Good lighting eliminates shadows</strong> — Lightbox or diffused natural light</li>
+<li><strong>Multiple angles</strong> — Remove background once per angle, save as template</li>
+<li><strong>Export at 2000x2000px minimum</strong> — Amazon's recommended resolution</li>
+</ol>
+
+<p>Remove product photo backgrounds instantly with <a href="/background-remover">ClearCut</a> — free, browser-based, no upload to server.</p>`,
+  },
+  'remove-bg-alternative-free': {
+    title: 'Best remove.bg Alternatives in 2026 (Free & Open Source)',
+    description: 'Looking for a free remove.bg alternative? Compare ClearCut, Rembg, PhotoScissors, and more.',
+    date: '2026-03-20', readTime: '8 min',
+    keywords: ['remove.bg alternative', 'free background remover', 'remove.bg free alternative', 'background removal tool'],
+    content: `<p><strong>remove.bg is the most popular background removal tool</strong> — but at $0.20-1.99 per image (or $9-39/month), it gets expensive fast. Here are free alternatives that do the same job.</p>
+
+<h2>Quick Comparison</h2>
+<table><thead><tr><th>Tool</th><th>Price</th><th>Privacy</th><th>Quality</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td><strong>ClearCut</strong></td><td>Free forever</td><td>✅ Browser-only (no upload)</td><td>Good</td><td>Privacy-first users</td></tr>
+<tr><td>remove.bg</td><td>$0.20+/image</td><td>❌ Cloud processing</td><td>Excellent</td><td>Professional quality</td></tr>
+<tr><td>Rembg (open source)</td><td>Free</td><td>✅ Local processing</td><td>Good</td><td>Developers, CLI users</td></tr>
+<tr><td>PhotoScissors</td><td>$5.99/mo</td><td>❌ Cloud</td><td>Good</td><td>Manual touch-up</td></tr>
+<tr><td>GIMP + Plugin</td><td>Free</td><td>✅ Local</td><td>Manual quality</td><td>Existing GIMP users</td></tr>
+<tr><td>Canva</td><td>$12.99/mo (Pro)</td><td>❌ Cloud</td><td>Good</td><td>Design + removal combo</td></tr>
+</tbody></table>
+
+<h2>1. ClearCut — Best Free Browser-Based Alternative</h2>
+<p><a href="/background-remover">ClearCut</a> runs entirely in your browser using WebAssembly AI. Your images never leave your device — ideal for sensitive photos (IDs, personal photos, confidential products).</p>
+<p><strong>Pros:</strong> Completely free, no signup, total privacy, no image limits.</p>
+<p><strong>Cons:</strong> First load downloads a ~5MB model. Quality slightly below remove.bg on complex edges (hair, fur).</p>
+
+<h2>2. Rembg — Best for Developers</h2>
+<p>Open-source Python library. Install via pip, run from command line. Supports batch processing. Uses the same U2-Net model family as ClearCut.</p>
+<p><code>pip install rembg && rembg i input.jpg output.png</code></p>
+
+<h2>3. Canva Background Remover</h2>
+<p>If you already pay for Canva Pro, the background remover is included. One-click removal with the option to replace the background with Canva's templates.</p>
+
+<h2>When to Use remove.bg Despite the Cost</h2>
+<ul>
+<li>Professional e-commerce with thousands of SKUs (API pricing)</li>
+<li>Complex subjects (hair, fur, transparent objects) where quality is critical</li>
+<li>Workflow integration (Photoshop plugin, Shopify app)</li>
+</ul>
+
+<p>For everything else, start with <a href="/background-remover">ClearCut</a> — it's free and your images stay private.</p>`,
+  },
+  'background-removal-api-guide': {
+    title: 'Background Removal API: Best Options for Developers (2026)',
+    description: 'Compare background removal APIs for your app. Pricing, quality, speed, and integration guide.',
+    date: '2026-03-17', readTime: '9 min',
+    keywords: ['background removal API', 'remove background API', 'image background API', 'remove.bg API alternative'],
+    content: `<p><strong>Building an app that needs background removal?</strong> You have three options: use a cloud API, self-host an open-source model, or run it client-side. Here's the complete comparison.</p>
+
+<h2>Cloud APIs</h2>
+<table><thead><tr><th>API</th><th>Pricing</th><th>Speed</th><th>Quality</th></tr></thead>
+<tbody>
+<tr><td><strong>remove.bg</strong></td><td>$0.20-1.99/image</td><td>~2 seconds</td><td>Excellent</td></tr>
+<tr><td><strong>Photoroom API</strong></td><td>$0.05-0.15/image</td><td>~3 seconds</td><td>Very good</td></tr>
+<tr><td><strong>Clipdrop API</strong></td><td>$0.02-0.05/image</td><td>~2 seconds</td><td>Good</td></tr>
+<tr><td><strong>Pixian.ai</strong></td><td>$0.10/image</td><td>~4 seconds</td><td>Very good</td></tr>
+</tbody></table>
+
+<h2>Self-Hosted (Open Source)</h2>
+<table><thead><tr><th>Model</th><th>Size</th><th>Quality</th><th>GPU Required</th></tr></thead>
+<tbody>
+<tr><td><strong>U2-Net</strong></td><td>176MB</td><td>Good</td><td>Optional (faster with)</td></tr>
+<tr><td><strong>U2-Net-P</strong></td><td>4.7MB</td><td>Moderate</td><td>No (CPU ok)</td></tr>
+<tr><td><strong>IS-Net</strong></td><td>170MB</td><td>Very good</td><td>Recommended</td></tr>
+<tr><td><strong>RMBG-2.0</strong></td><td>~300MB</td><td>Excellent</td><td>Yes</td></tr>
+</tbody></table>
+
+<h2>Client-Side (Browser)</h2>
+<p>ONNX Runtime Web + WASM allows running models directly in the browser. This is what <a href="/background-remover">ClearCut</a> uses.</p>
+<p><strong>Pros:</strong> Zero server cost, infinite scale, total privacy.</p>
+<p><strong>Cons:</strong> Limited to smaller models (~5MB), slower on mobile, requires model download.</p>
+
+<h2>Cost Comparison at Scale</h2>
+<table><thead><tr><th>Volume</th><th>remove.bg</th><th>Self-hosted (GPU)</th><th>Client-side</th></tr></thead>
+<tbody>
+<tr><td>1,000 images/mo</td><td>$200</td><td>~$50 (GPU server)</td><td>$0</td></tr>
+<tr><td>10,000 images/mo</td><td>$2,000</td><td>~$100</td><td>$0</td></tr>
+<tr><td>100,000 images/mo</td><td>$10,000+</td><td>~$300</td><td>$0</td></tr>
+</tbody></table>
+<p>At scale, self-hosted or client-side approaches pay for themselves almost immediately.</p>
+
+<h2>Implementation Guide</h2>
+<h3>Option A: Cloud API (Fastest to Implement)</h3>
+<p>Sign up for remove.bg or Clipdrop, get an API key, send POST request with image, receive PNG with transparent background.</p>
+
+<h3>Option B: Self-Hosted with Docker</h3>
+<p>Use the rembg Docker image: <code>docker run -p 5000:5000 danielgatis/rembg</code>. Send images via HTTP.</p>
+
+<h3>Option C: Client-Side with ONNX Runtime</h3>
+<p>Load ONNX model in browser with onnxruntime-web. Preprocess image to 320x320, run inference, post-process mask. See <a href="/background-remover">ClearCut's source</a> for a reference implementation.</p>
+
+<p>Start with a cloud API for prototyping, then migrate to self-hosted or client-side for production cost savings.</p>`,
+  },
+  'passport-photo-background-white': {
+    title: 'How to Make a Passport Photo Background White (Free)',
+    description: 'Remove and replace your passport photo background with white using free tools. Works for US, UK, EU, and more.',
+    date: '2026-03-14', readTime: '6 min',
+    keywords: ['passport photo white background', 'passport photo background removal', 'ID photo background', 'visa photo white background'],
+    content: `<p><strong>Most countries require passport photos with a white or light-colored background.</strong> If your photo has the wrong background, you don't need to retake it — you can fix it digitally in 30 seconds.</p>
+
+<h2>Requirements by Country</h2>
+<table><thead><tr><th>Country</th><th>Background Color</th><th>Photo Size</th></tr></thead>
+<tbody>
+<tr><td>United States</td><td>White</td><td>2x2 inches</td></tr>
+<tr><td>United Kingdom</td><td>Light gray or cream</td><td>35x45mm</td></tr>
+<tr><td>EU / Schengen</td><td>Light, uniform</td><td>35x45mm</td></tr>
+<tr><td>Canada</td><td>White</td><td>50x70mm</td></tr>
+<tr><td>India</td><td>White</td><td>2x2 inches</td></tr>
+<tr><td>China</td><td>White</td><td>33x48mm</td></tr>
+</tbody></table>
+
+<h2>Step-by-Step: Free Background Replacement</h2>
+<ol>
+<li><strong>Take your photo</strong> — Face forward, neutral expression, good lighting</li>
+<li><strong>Go to <a href="/background-remover">ClearCut</a></strong> — Upload your photo</li>
+<li><strong>Download the transparent PNG</strong> — Background removed automatically</li>
+<li><strong>Add white background</strong> — Open in any image editor, place on white canvas</li>
+<li><strong>Crop to required size</strong> — Use your country's specifications</li>
+<li><strong>Print at correct dimensions</strong></li>
+</ol>
+
+<h2>⚠️ Important Warnings</h2>
+<ul>
+<li><strong>Don't over-edit.</strong> Passport agencies reject heavily edited photos</li>
+<li><strong>Keep natural skin tones.</strong> Don't apply filters</li>
+<li><strong>Shadows should be minimal</strong> — The AI removal handles most shadows, but check the edges</li>
+<li><strong>Some countries require professional photos</strong> — Check if DIY is accepted in your jurisdiction</li>
+</ul>
+
+<h2>Why ClearCut Is Ideal for ID Photos</h2>
+<p>Your passport photo contains sensitive biometric data. <a href="/background-remover">ClearCut</a> processes everything in your browser — your photo never leaves your device. This is a critical privacy advantage over cloud-based tools.</p>
+
+<p>Remove your passport photo background for free at <a href="/background-remover">ClearCut</a> — private, instant, no signup.</p>`,
+  },
+  'bulk-background-removal-free': {
+    title: 'Bulk Background Removal: Process Hundreds of Images Free',
+    description: 'How to remove backgrounds from multiple images at once using free tools and scripts.',
+    date: '2026-03-11', readTime: '7 min',
+    keywords: ['bulk background removal', 'batch remove background', 'mass background removal', 'remove background multiple images'],
+    content: `<p><strong>Removing backgrounds one image at a time works for 5 photos. But what about 500?</strong> E-commerce sellers, photographers, and marketers need batch processing. Here are your options.</p>
+
+<h2>Free Batch Methods</h2>
+
+<h3>1. Rembg CLI (Best Free Option)</h3>
+<p>Open-source Python tool that processes folders of images:</p>
+<p><code>pip install rembg && rembg p input_folder/ output_folder/</code></p>
+<p>Processes ~2-5 images/minute on CPU, 20-50/minute on GPU. Completely free, unlimited images.</p>
+<p><strong>Pros:</strong> Free, unlimited, local processing, scriptable.</p>
+<p><strong>Cons:</strong> Requires Python, command line comfort, CPU processing is slow.</p>
+
+<h3>2. ClearCut (Browser, One at a Time)</h3>
+<p><a href="/background-remover">ClearCut</a> is great for individual images but doesn't have batch mode yet. For small batches (under 20), it's quick enough to process one by one.</p>
+
+<h3>3. GIMP Batch Plugin</h3>
+<p>GIMP's Script-Fu can automate background removal across multiple images, but setup is complex and quality depends on your script.</p>
+
+<h2>Paid Batch Options</h2>
+<table><thead><tr><th>Tool</th><th>Pricing</th><th>Speed</th><th>API Available</th></tr></thead>
+<tbody>
+<tr><td>remove.bg</td><td>$0.20+/image</td><td>~2s/image</td><td>Yes</td></tr>
+<tr><td>Photoroom</td><td>$9.99/mo (unlimited)</td><td>~3s/image</td><td>Yes</td></tr>
+<tr><td>Clipping Magic</td><td>$3.99/mo (15 images)</td><td>~5s/image</td><td>No</td></tr>
+</tbody></table>
+
+<h2>The Cost-Effective Strategy</h2>
+<p>For most e-commerce sellers:</p>
+<ol>
+<li><strong>Under 20 images/month:</strong> Use <a href="/background-remover">ClearCut</a> (free)</li>
+<li><strong>20-200 images/month:</strong> Use Rembg CLI locally (free)</li>
+<li><strong>200+ images/month:</strong> Photoroom's unlimited plan ($9.99/mo) or self-hosted rembg on a GPU server</li>
+</ol>
+
+<h2>Workflow Automation</h2>
+<p>For recurring batch jobs, create a simple script:</p>
+<ol>
+<li>Watch a folder for new images (fswatch/inotify)</li>
+<li>Auto-process with rembg</li>
+<li>Output to a "processed" folder</li>
+<li>Optionally upload to your e-commerce platform via API</li>
+</ol>
+
+<p>Start processing individual images free at <a href="/background-remover">ClearCut</a>, then scale to batch tools as your volume grows.</p>`,
+  },
 };
 
 export async function generateStaticParams() { return Object.keys(posts).map(slug => ({ slug })); }

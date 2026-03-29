@@ -12,6 +12,11 @@ const posts = [
   { slug: 'best-background-remover-tools-2026', title: 'Best Background Remover Tools in 2026: Free vs Paid', description: 'We compared the top background removal tools. See which ones deliver the best results.', date: '2026-03-28', readTime: '10 min' },
   { slug: 'how-to-remove-background-from-image', title: 'How to Remove Background from Image: 5 Free Methods', description: 'Step-by-step guide to removing backgrounds using free tools, Photoshop, and AI.', date: '2026-03-24', readTime: '8 min' },
   { slug: 'ecommerce-product-photo-background', title: 'E-commerce Product Photography: Background Removal Tips', description: 'How to create clean product photos for your online store with professional backgrounds.', date: '2026-03-20', readTime: '7 min' },
+  { slug: 'remove-background-from-product-photos', title: 'How to Remove Background from Product Photos (Free Methods)', description: 'Clean product photo backgrounds for Amazon, Shopify, and eBay.', date: '2026-03-22', readTime: '8 min' },
+  { slug: 'remove-bg-alternative-free', title: 'Best remove.bg Alternatives in 2026 (Free & Open Source)', description: 'Free alternatives to remove.bg for background removal.', date: '2026-03-20', readTime: '8 min' },
+  { slug: 'background-removal-api-guide', title: 'Background Removal API: Best Options for Developers (2026)', description: 'Compare background removal APIs for your app.', date: '2026-03-17', readTime: '9 min' },
+  { slug: 'passport-photo-background-white', title: 'How to Make a Passport Photo Background White (Free)', description: 'Remove passport photo background for US, UK, EU, and more.', date: '2026-03-14', readTime: '6 min' },
+  { slug: 'bulk-background-removal-free', title: 'Bulk Background Removal: Process Hundreds of Images Free', description: 'How to remove backgrounds from multiple images at once.', date: '2026-03-11', readTime: '7 min' },
 ];
 
 export default function BlogPage() {
