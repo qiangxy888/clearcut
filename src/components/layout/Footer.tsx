@@ -22,8 +22,10 @@ export default function Footer() {
           <div>
             <h3 className="font-semibold text-white mb-4">Our Tools</h3>
             <ul className="space-y-2 text-sm">
-              <li><a href="https://aiwritingcheck.com" target="_blank" rel="noopener" className="hover:text-white">AI Content Detector</a></li>
-              <li><a href="https://wordcounthub.com" target="_blank" rel="noopener" className="hover:text-white">Word Counter</a></li>
+              <li><a href="https://invoicefly.co" target="_blank" rel="noopener" className="hover:text-white transition-colors">Invoice Generator</a></li>
+              <li><a href="https://formforge.co" target="_blank" rel="noopener" className="hover:text-white transition-colors">Form Builder</a></li>
+              <li><a href="https://aiwritingcheck.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">AI Content Detector</a></li>
+              <li><a href="https://wordcounthub.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Word Counter</a></li>
             </ul>
           </div>
         </div>

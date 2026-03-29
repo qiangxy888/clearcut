@@ -67,9 +67,9 @@ export default function BackgroundRemoverPage() {
     img.src = url;
   }, []);
 
-  const applyBg = useCallback((bg: OutputOptions['background'], color?: string) => {
+  const applyBg = useCallback(async (bg: OutputOptions['background'], color?: string) => {
     if (!foregroundData) return;
-    const { applyBackground } = require('@/lib/model-worker');
+    const { applyBackground } = await import('@/lib/model-worker');
     const canvas = applyBackground(foregroundData, bg, originalImageData || undefined, color || options.customColor, options.blurRadius);
 
     const format = bg === 'transparent' ? 'image/png' : options.format === 'webp' ? 'image/webp' : options.format === 'jpg' ? 'image/jpeg' : 'image/png';
